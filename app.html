@@ -1,14 +1,19 @@
-<html>
+<html ng-app="keypress">
   <head>
-    <title></title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="keypressfunctions.js"></script>
+    <title>Key Presssssssss</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
   </head>
 
 
-  <body>
-    <div id="inputDiv">
+  <body ng-controller="mainController">
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="keypressfunctions.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+    <div>
+      <label>Type something:
+        <input type="text" ng-keypress="onKeyPress($event)" />
+      </label>
     </div>
 
   </body>

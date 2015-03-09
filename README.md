@@ -1,1 +1,3 @@
-Find a way to display "Enter", "Space", or "Tab" to the console.
+Display "Enter", "Space", or "Tab" to the console.
+
+I added some Angular directives.
